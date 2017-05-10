@@ -27,3 +27,33 @@ Bonus points: type the following command:
 $ ls
 #+END_SRC
 and send me the output.
+* Exercise 10/5/17:
+Create folder with your name
+Print the current working directory
+Go to that folder
+Print the current working directory
+Create another folder
+Go to that folder
+Go to home
+Commands to be used
+Creating folder
+#+BEGIN_SRC
+$ mkdir <folder_name>
+#+END_SRC
+Changing folder
+#+BEGIN_SRC
+$ cd <folder_name>
+#+END_SRC
+Displaying current folder
+#+BEGIN_SRC
+$ pwd
+#+END_SRC
+Home folder usually represented as
+#+BEGIN_SRC
+~
+#+END_SRC
+If you have any doubts read the manual with
+#+BEGIN_SRC
+$ man <command_name>
+#+END_SRC
+else use a search engine.
