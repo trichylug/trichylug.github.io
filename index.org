@@ -1,6 +1,6 @@
 #+TITLE:      Linux Exercises
 #+AUTHOR:     Sivaram
-#+OPTIONS:    H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc author:nil date:nil html-postamble:nil
+#+OPTIONS:    H:3 num:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t TeX:t LaTeX:t skip:nil d:(HIDE) tags:not-in-toc author:nil date:nil html-postamble:nil
 #+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
 #+LANGUAGE:   en
 #+PRIORITIES: A C B
@@ -8,8 +8,8 @@
 
 Anyone interested can do it.
 * Exercise 9/5/17:
-Login to the server with
-User: tutorial
+Login to the server with \\
+User: tutorial \\
 Password: tutorial
 1. You can either ssh(secure shell) into the server or directly execute commands on the server.
 2. To ssh from a Linux PC
@@ -18,24 +18,24 @@ $ ssh tutorial@<serverip>
 #+END_SRC
 Enter password.
 3. To ssh from putty (Windows).
-Install putty.
-Enter ip address and use port 22.
-Login as: tutorial and enter password
-This exercise is just logging into Linux.
+Install putty. \\
+Enter ip address and use port 22. \\
+Login as: tutorial and enter password \\
+This exercise is just logging into Linux. \\
 Bonus points: type the following command:
 #+BEGIN_SRC
 $ ls
 #+END_SRC
 and send me the output.
 * Exercise 10/5/17:
-Create folder with your name
-Print the current working directory
-Go to that folder
-Print the current working directory
-Create another folder
-Go to that folder
-Go to home
-Commands to be used
+Create folder with your name \\
+Print the current working directory \\
+Go to that folder \\
+Print the current working directory \\
+Create another folder \\
+Go to that folder \\
+Go to home \\
+Commands to be used \\
 Creating folder
 #+BEGIN_SRC
 $ mkdir <folder_name>
@@ -57,3 +57,17 @@ If you have any doubts read the manual with
 $ man <command_name>
 #+END_SRC
 else use a search engine.
+* Exercise 11/5/17:
+Remove the folder you created with rmdir command \\
+Understand where you can't use rmdir by reading the manual \\
+#+BEGIN_SRC
+$ rmdir <folder_name>
+$ man rmdir
+#+END_SRC
+Find how rm command works \\
+#+BEGIN_SRC
+$ rm <file_name>
+#+END_SRC
+Can you use it to delete folders that can't be deleted with rmdir? \\
+If so how? \\
+Message/Mail me your solutions.
