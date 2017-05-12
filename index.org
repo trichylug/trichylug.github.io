@@ -71,3 +71,23 @@ $ rm <file_name>
 Can you use it to delete folders that can't be deleted with rmdir? \\
 If so how? \\
 Message/Mail me your solutions.
+* Exercise 12/5/17:
+Find what the following command does by reading the manual
+#+BEGIN_SRC
+$ rm -r <folder_name>
+#+END_SRC
+Learn to use a text editor. \\
+There are number of text editors available in most Linux Distributions \\
+The most famous ones are vim, nano and emacs. \\
+nano is very easy to learn \\
+You can start learning vim by running the following command 
+#+BEGIN_SRC
+$ vimtutor
+#+END_SRC
+I recommend that you learn vim, it will be difficult initially but will make you work faster \\
+You should by now be able to, \\
+Create files, folders. \\
+Delete files, folders. \\
+Edit text files \\
+Next exercise will be on 15/5/17. \\
+You should be thorough with all the exercises till now to be able to do next week exercises.
